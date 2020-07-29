@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient_login"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/aa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Field"
+        android:textColor="#ff9900" />
+
+    <Spinner
+        android:id="@+id/spFilterField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ff9900"
+        android:labelFor="@id/aa"></Spinner>
+
+    <TextView
+        android:id="@+id/ab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For class"
+        android:textColor="#ff9900" />
+
+    <Spinner
+        android:id="@+id/spFilterClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ff9900"
+        android:labelFor="@id/ab"></Spinner>
+
+    <EditText
+        android:id="@+id/etFilterSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bottom_outline" />
+
+    <EditText
+        android:id="@+id/etFilterCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bottom_outline" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search" />
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "562468808088",
+    "firebase_url": "https://tutionfinder-cf70a.firebaseio.com",
+    "project_id": "tutionfinder-cf70a",
+    "storage_bucket": "tutionfinder-cf70a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562468808088:android:2b7c109be824d8a1",
+        "android_client_info": {
+          "package_name": "com.aec_developers.khurshid.tutionsearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562468808088-rf3u0bts4aa2lk6mp0t8onlpvvjo5pk2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUcA9zt8TlM_H6iR-85HAP1rTFHSTkKK4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

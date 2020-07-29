@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient_login"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:alpha="0.7"
+                    android:src="@drawable/ic_teacher_reading" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:alpha="0.7"
+                    android:gravity="center"
+                    android:text="Request a teacher"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.7"
+                    android:gravity="center"
+                    android:text="Provide your details accurately. Teacher will contact you soon"
+                    android:textColor="#fff"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/etRequestName"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="35dp"
+                android:alpha="0.9"
+                android:background="@drawable/edittext_bottom_outline"
+                android:drawableLeft="@drawable/ic_person_white_24dp"
+                android:drawablePadding="12dp"
+                android:hint="name"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textAlignment="textStart"
+                android:textColorHint="#fff" />
+
+
+            <EditText
+                android:id="@+id/etRequestPhone"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="16dp"
+                android:alpha="0.9"
+                android:background="@drawable/edittext_bottom_outline"
+                android:drawableLeft="@drawable/ic_phone_white_24dp"
+                android:drawablePadding="12dp"
+                android:hint="phone"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:id="@+id/etRequestEmail"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="16dp"
+                android:alpha="0.9"
+                android:background="@drawable/edittext_bottom_outline"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:drawablePadding="12dp"
+                android:hint="email"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColorHint="#fff" />
+
+            <TextView
+                android:id="@+id/tvState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:alpha="0.9"
+                android:text="select field"
+                android:textColor="#ff9900" />
+
+            <Spinner
+                android:id="@+id/spRequestField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ff9900"
+                android:labelFor="@id/tvState" />
+
+            <EditText
+                android:id="@+id/etRequestSubject"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="16dp"
+                android:alpha="0.9"
+                android:background="@drawable/edittext_bottom_outline"
+                android:drawableLeft="@drawable/ic_open_book"
+                android:drawablePadding="12dp"
+                android:hint="subject you are looking for"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColorHint="#fff" />
+
+            <AutoCompleteTextView
+                android:id="@+id/etRequestCity"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="16dp"
+                android:alpha="0.9"
+                android:background="@drawable/edittext_bottom_outline"
+                android:drawableLeft="@drawable/ic_location_city_white_24dp"
+                android:drawablePadding="12dp"
+                android:hint="city you live in"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+            <!--<TextView-->
+            <!--android:id="@+id/studentTextForgotPassword"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="end"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:alpha="0.9"-->
+            <!--android:linksClickable="true"-->
+            <!--android:onClick="studentForgotPassword"-->
+            <!--android:padding="6dp"-->
+            <!--android:text="Forgot Password?"-->
+            <!--android:textColor="#ff9900"-->
+            <!--android:textSize="14sp" />-->
+
+            <ProgressBar
+                android:id="@+id/pbRequest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:alpha="0.8"
+                android:background="@drawable/login_button"
+                android:padding="8dp"
+                android:text="Request"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:alpha="0.8"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Dont have account?"-->
+            <!--android:textColor="#fff"-->
+            <!--android:textSize="14sp" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/studentTextCreateAccount"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="studentCreateAccount"-->
+            <!--android:text=" Create one"-->
+            <!--android:textColor="#ff9900"-->
+            <!--android:textSize="14sp" />-->
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

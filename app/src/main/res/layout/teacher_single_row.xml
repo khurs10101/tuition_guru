@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:elevation="5dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="4dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--<ImageView-->
+            <!--android:id="@+id/ivTeacher80by80image"-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:alpha="0.5"-->
+            <!--android:padding="4dp"-->
+            <!--android:src="@drawable/ic_college_graduation" />-->
+
+            <TextView
+                android:id="@+id/tvTeacherNameInList"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:alpha="0.9"
+                android:gravity="center"
+                android:text="Khurshid Alam Bhuyan"
+                android:textColor="#ff7700"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:alpha="0.6"
+            android:background="#000"
+            android:backgroundTint="#910091" />
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:weightSum="2">-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="5dp"-->
+        <!--android:text="Qualification"-->
+        <!--android:textSize="15sp" />-->
+
+        <!--<View-->
+        <!--android:layout_width="1dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:alpha="0.5"-->
+        <!--android:background="#000" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/tvTeacherQualificationInList"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="5dp"-->
+        <!--android:text="B.E/B.Tech"-->
+        <!--android:textSize="15sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:alpha="0.5"-->
+        <!--android:background="#000" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvTeacherCityInList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="City: Dibrugarh"
+                android:textColor="#910091"
+                android:textSize="15sp" />
+
+            <!--<View-->
+            <!--android:layout_width="1dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:alpha="1"-->
+            <!--android:background="#000"-->
+            <!--android:backgroundTint="#910091" />-->
+
+            <TextView
+                android:id="@+id/tvTeacherStateInList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="State: Assam"
+                android:textColor="#910091"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:alpha="0.5"-->
+        <!--android:background="#000" />-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="2"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="5dp"-->
+        <!--android:text="Teaches Upto"-->
+        <!--android:textSize="15sp" />-->
+
+        <!--<View-->
+        <!--android:layout_width="1dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:alpha="0.5"-->
+        <!--android:background="#000" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/tvTeacherClassInList"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="5dp"-->
+        <!--android:text="Graduate"-->
+        <!--android:textSize="15sp" />-->
+
+
+        <!--</LinearLayout>-->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha="1"
+            android:background="#000"
+            android:backgroundTint="#910091" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Can Teach"
+                android:textColor="#ff7700"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/tvTeacherAllSubjectInList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:padding="2dp"
+                android:text="Computer Science and Engineering, Data Structure, Compiler Design, Digital System, C++, Java, Engineering Mathematics, Theory of Computation"
+                android:textColor="#910091" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha="0.6"
+            android:background="#000"
+            android:backgroundTint="#910091" />
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="7dp"-->
+        <!--android:layout_marginTop="7dp"-->
+        <!--android:orientation="horizontal">-->
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btTeacherDetailsInList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:alpha="0.8"
+            android:background="@drawable/login_button"
+            android:text="Details"
+            android:textColor="#fff" />
+
+        <!--<Button-->
+        <!--android:id="@+id/btTeacherVerifiedButtonInList"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="Not Verified" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/btTeacherCallButtonInList"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="Details" />-->
+
+    </LinearLayout>
+
+
+    <!--</LinearLayout>-->
+
+
+</android.support.v7.widget.CardView>

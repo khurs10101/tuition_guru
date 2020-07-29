@@ -1,0 +1,246 @@
+<resources>
+    <string name="app_name">Tuition Guru</string>
+
+    <string name="google_places_api_key"> AIzaSyBqEOs3UXHew99WmvukSL0iE73Tv_ztWFk </string>
+    <!--<string name="google_places_api_key">AIzaSyCjGPU5vgSx8GqXa9mlFdyCG5IIJLmrA2U</string>-->
+
+    <string-array name="states">
+        <!--<item>Andhra Pradesh</item>-->
+        <!--<item>Arunachal Pradesh</item>-->
+        <item>Assam</item>
+        <!--<item>Bihar</item>-->
+        <!--<item>Chhattisgarh</item>-->
+        <!--<item>Goa</item>-->
+        <!--<item>Gujrat</item>-->
+        <!--<item>Haryana</item>-->
+        <!--<item>Himachal Pradesh</item>-->
+        <!--<item>Jammu And Kashmir</item>-->
+        <!--<item>Jharkhand</item>-->
+        <!--<item>Karnataka</item>-->
+        <!--<item>Kerela</item>-->
+        <!--<item>Madhya Pradesh</item>-->
+        <!--<item>Maharashtra</item>-->
+        <!--<item>Manipur</item>-->
+        <!--<item>Meghalaya</item>-->
+        <!--<item>Mizoram</item>-->
+        <!--<item>Nagaland</item>-->
+        <!--<item>Odisha</item>-->
+        <!--<item>Punjab</item>-->
+        <!--<item>Rajasthan</item>-->
+        <!--<item>Sikkim</item>-->
+        <!--<item>Tamil Nadu</item>-->
+        <!--<item>Telangana</item>-->
+        <!--<item>Tripura</item>-->
+        <!--<item>Uttarakhand</item>-->
+        <!--<item>Uttar Pradesh</item>-->
+        <!--<item>West Bengal</item>-->
+    </string-array>
+
+    <string-array name="teacher_qualification">
+        <item>10th Pass</item>
+        <item>12th Pass</item>
+        <item>J.E</item>
+        <item>B.A</item>
+        <item>C.A</item>
+        <item>B.Sc</item>
+        <item>B.Com</item>
+        <item>BCA</item>
+        <item>BBA</item>
+        <item>B.E/B.Tech</item>
+        <item>MBBS</item>
+        <item>M.A</item>
+        <item>M.Com</item>
+        <item>M.Sc</item>
+        <item>MCA</item>
+        <item>MBA</item>
+        <item>M.E/M.Tech</item>
+        <item>M.D/M.S</item>
+        <item>PhD</item>
+        <item>PhD Engineering</item>
+        <item>other</item>
+    </string-array>
+
+    <string-array name="autocomplete_suggestion">
+        <item>All Subjects</item>
+        <item>Engineering (Theory Subjects)</item>
+        <item>Humanities</item>
+        <item>Commerce</item>
+        <item>Science</item>
+        <item>Mathematics</item>
+        <item>Medicine</item>
+        <item>Music</item>
+        <item>Guiter</item>
+        <item>Piano</item>
+        <item>Tabla</item>
+        <item>Harmonium</item>
+        <item>Flute</item>
+        <item>Drums</item>
+        <item>Language</item>
+        <item>Hindi</item>
+        <item>Web and Programming Language</item>
+        <item>Fine Arts and Painting</item>
+        <item>Electronics projects</item>
+        <item>Dancing</item>
+        <item>Drama</item>
+        <item>Cooking</item>
+        <item>Other</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>Biology</item>
+        <item>Computer Science Engineering</item>
+        <item>Electronics and Communication Engineering</item>
+        <item>Electrical engineering</item>
+        <item>Electrical and Electronics engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Industrial Production Engineering</item>
+        <item>Information Technology Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Chemical Engineering</item>
+        <item>Aeronautical Engineering</item>
+        <item>Agricultural engineering</item>
+        <item>Mining engineering</item>
+        <item>Biochemical engineering</item>
+        <item>Biotechnology engineering</item>
+        <item>Electrical and Instrumentation Engineering</item>
+        <item>Metallurgical Engineering</item>
+        <item>class 11 and 12</item>
+        <item>class 10</item>
+    </string-array>
+
+
+    <string-array name="teacher_field">
+        <item>All Subjects</item>
+        <item>Multiple Subjects</item>
+        <item>Engineering (Theory Subjects)</item>
+        <item>Humanities</item>
+        <item>Commerce</item>
+        <item>Science</item>
+        <item>Mathematics</item>
+        <item>Medicine</item>
+        <item>Music</item>
+        <item>Language</item>
+        <item>Web and Programming Language</item>
+        <item>Fine Arts and Painting</item>
+        <item>Electronics projects</item>
+        <item>Dancing</item>
+        <item>Drama</item>
+        <item>Cooking</item>
+        <item>Sports</item>
+        <item>Yoga</item>
+        <item>Martial Arts</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="teacher_field_search">
+        <item>All Subjects (Upto class 10)</item>
+        <item>For class 11 and 12 only</item>
+        <item>Engineering (Theory Subjects)</item>
+        <item>Humanities</item>
+        <item>Commerce</item>
+        <item>Science</item>
+        <item>Mathematics</item>
+        <item>Medicine</item>
+        <item>Music</item>
+        <item>Language</item>
+        <item>Web and Programming Language</item>
+        <item>Fine Arts and Painting</item>
+        <item>Electronics projects</item>
+        <item>Dancing</item>
+        <item>Drama</item>
+        <item>Cooking</item>
+        <item>Sports</item>
+        <item>Yoga</item>
+        <item>Martial Arts</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="engineering_field">
+        <item>Computer Science Engineering</item>
+        <item>Electronics and Communication Engineering</item>
+        <item>Electrical engineering</item>
+        <item>Electrical and Electronics engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Industrial Production Engineering</item>
+        <item>Information Technology Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Chemical Engineering</item>
+        <item>Aeronautical Engineering</item>
+        <item>Agricultural engineering</item>
+        <item>Mining engineering</item>
+        <item>Biochemical engineering</item>
+        <item>Biotechnology engineering</item>
+        <item>Electrical and Instrumentation Engineering</item>
+        <item>Metallurgical Engineering</item>
+    </string-array>
+
+    <string-array name="teacher_class">
+        <item>upto class 10</item>
+        <item>class 11 and 12</item>
+        <item>Bachelors</item>
+        <item>Masters</item>
+        <item>PhD</item>
+    </string-array>
+
+    <string-array name="teacher_class_search">
+        <item>Select option</item>
+        <item>upto class 10</item>
+        <item>class 11 and 12</item>
+        <item>Bachelors</item>
+        <item>Masters</item>
+        <item>PhD</item>
+    </string-array>
+
+    <string-array name="teacher_class_from_degree">
+        <item>Bachelors</item>
+        <item>Masters</item>
+        <item>PhD</item>
+    </string-array>
+    <string-array name="teacher_class_from_hs">
+        <item>class 11 and 12</item>
+        <item>Bachelors</item>
+        <item>Masters</item>
+        <item>PhD</item>
+    </string-array>
+
+
+    <string-array name="filterSubjectList">
+        <item>All Subjects</item>
+        <item>Computer Science Engineering</item>
+        <item>Electronics and Communication Engineering</item>
+        <item>Electrical engineering</item>
+        <item>Electrical and Electronics engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Industrial Production Engineering</item>
+        <item>Information Technology Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Chemical Engineering</item>
+        <item>Aeronautical Engineering</item>
+        <item>Agricultural engineering</item>
+        <item>Mining engineering</item>
+        <item>Biochemical engineering</item>
+        <item>Biotechnology engineering</item>
+        <item>Electrical and Instrumentation Engineering</item>
+        <item>Metallurgical Engineering</item>
+        <item>Humanities</item>
+        <item>Commerce</item>
+        <item>Science</item>
+        <item>Mathematics</item>
+        <item>Medicine</item>
+        <item>Music</item>
+        <item>Language</item>
+        <item>Web and Programming Language</item>
+        <item>Fine Arts and Painting</item>
+        <item>Electronics projects</item>
+        <item>Dancing</item>
+        <item>Drama</item>
+        <item>Cooking</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+</resources>

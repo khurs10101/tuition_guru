@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_gradient_login"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:alpha="0.7"
+                    android:src="@drawable/ic_classroom" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:alpha="0.7"
+                        android:gravity="center"
+                        android:text="Details update"
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="4dp"
+                        android:alpha="0.7"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:text="Note: Please don't leave any field blank. Enter details correctly. It will help students to contact you."
+                        android:textColor="#fff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etAgeUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:alpha="0.9"
+                android:background="@drawable/edittext_bottom_outline"
+                android:drawableLeft="@drawable/ic_person_white_24dp"
+                android:drawablePadding="12dp"
+                android:hint="update your age"
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:id="@+id/etPhoneUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:alpha="0.9"
+                android:background="@drawable/edittext_bottom_outline"
+                android:drawableLeft="@drawable/ic_phone_white_24dp"
+                android:drawablePadding="12dp"
+                android:hint="update your phone number"
+                android:inputType="phone"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColorHint="#fff" />
+
+            <!--<EditText-->
+            <!--android:id="@+id/etEmail"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="45dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:alpha="0.9"-->
+            <!--android:background="@drawable/edittext_bottom_outline"-->
+            <!--android:drawableLeft="@drawable/ic_email_black_24dp"-->
+            <!--android:drawablePadding="12dp"-->
+            <!--android:hint="enter email"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--android:textColorHint="#fff" />-->
+
+            <EditText
+                android:id="@+id/etCityUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:alpha="0.9"
+                android:background="@drawable/edittext_bottom_outline"
+                android:drawableLeft="@drawable/ic_location_city_white_24dp"
+                android:drawablePadding="12dp"
+                android:hint="update your city"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColorHint="#fff" />
+
+            <TextView
+                android:id="@+id/tvState1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:alpha="0.9"
+                android:text="update your state"
+                android:textColor="#ff9900" />
+
+            <Spinner
+                android:id="@+id/spUpdateState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ff9900"
+                android:labelFor="@id/tvState1" />
+
+            <TextView
+                android:id="@+id/tvState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:alpha="0.9"
+                android:text="update your field"
+                android:textColor="#ff9900" />
+
+            <Spinner
+                android:id="@+id/spUpdateField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ff9900"
+                android:labelFor="@id/tvState" />
+
+
+            <TextView
+                android:id="@+id/tvBranch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:alpha="0.9"
+                android:text="update your branch (Engineering Subjects)"
+                android:textColor="#ff9900" />
+
+            <Spinner
+                android:id="@+id/spUpdateBranch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ff9900"
+                android:labelFor="@id/tvBranch" />
+
+            <!--<TextView-->
+            <!--android:id="@+id/tvUpdateField"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:alpha="0.9"-->
+            <!--android:text="update your Qualification"-->
+            <!--android:textColor="#ff9900" />-->
+
+            <!--<Spinner-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:backgroundTint="#ff9900"-->
+            <!--android:labelFor="@id/tvUpdateField" />-->
+
+            <TextView
+                android:id="@+id/tvUpdateClass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:alpha="0.9"
+                android:text="update class you want to teach"
+                android:textColor="#ff9900" />
+
+            <Spinner
+                android:id="@+id/spClassUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ff9900"
+                android:labelFor="@id/tvUpdateClass" />
+
+            <EditText
+                android:id="@+id/etSubjectUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:alpha="0.9"
+                android:background="@drawable/edittext_bottom_outline"
+                android:drawableLeft="@drawable/ic_public_white_24dp"
+                android:drawablePadding="12dp"
+                android:hint="update your subjects"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColorHint="#fff" />
+
+
+            <EditText
+                android:id="@+id/etFeeUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:alpha="0.9"
+                android:background="@drawable/edittext_bottom_outline"
+                android:drawableLeft="@drawable/ic_rupee_white"
+                android:drawablePadding="12dp"
+                android:hint="update monthly fee"
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColorHint="#fff" />
+
+            <!--<EditText-->
+            <!--android:id="@+id/etRegValPassword"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="45dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:alpha="0.9"-->
+            <!--android:background="@drawable/edittext_bottom_outline"-->
+            <!--android:drawableLeft="@drawable/ic_lock_black_24dp"-->
+            <!--android:drawablePadding="12dp"-->
+            <!--android:hint="Retype password"-->
+            <!--android:inputType="textPassword"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--android:textColorHint="#fff" />-->
+
+            <ProgressBar
+                android:id="@+id/pbTeacherUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btUpdateTeacherDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:alpha="0.8"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/login_button"
+                android:padding="8dp"
+                android:text="Update"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <!--<Button-->
+            <!--android:id="@+id/btRegister"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="register" />-->
+
+
+            <!--<Button-->
+            <!--android:id="@+id/btGoogleSignUp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="google signup" />-->
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

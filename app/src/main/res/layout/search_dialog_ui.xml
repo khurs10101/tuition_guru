@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:labelFor="@id/spSearchClass"
+            android:text="Want to learn"
+            android:textColor="#000" />
+
+        <Spinner
+            android:id="@+id/spSearchClass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:labelFor="@id/etSearchSubject"
+            android:text="Enter full subject name (optional)"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/etSearchSubject"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_bottom_outline_black"
+            android:drawableLeft="@drawable/ic_open_book_black"
+            android:drawablePadding="12dp"
+            android:hint="enter subject e.g Mathematic"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textAlignment="textStart"
+            android:textColorHint="#000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:labelFor="@id/etSearchLocation"
+            android:text="Enter your location"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/etSearchLocation"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:alpha="0.9"
+            android:background="@drawable/edittext_bottom_outline_black"
+            android:drawableLeft="@drawable/ic_my_location_black_24dp"
+            android:drawablePadding="12dp"
+            android:hint="enter location e.g guwahati"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textAlignment="textStart"
+            android:textColorHint="#000" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

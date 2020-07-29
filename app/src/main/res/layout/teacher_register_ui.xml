@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient_login"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:alpha="0.7"
+                    android:src="@drawable/ic_classroom" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:alpha="0.7"
+                        android:gravity="center"
+                        android:text="Teacher Registration"
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="4dp"
+                        android:alpha="0.7"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:text="Note: Please enter your phone number and email correctly so that you can be contacted by students"
+                        android:textColor="#fff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/etTeacherName"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="8dp"
+                    android:alpha="0.9"
+                    android:background="@drawable/edittext_bottom_outline"
+                    android:drawableLeft="@drawable/ic_person_white_24dp"
+                    android:drawablePadding="12dp"
+                    android:hint="enter name"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textColorHint="#fff" />
+
+                <EditText
+                    android:id="@+id/etTeacherPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="8dp"
+                    android:alpha="0.9"
+                    android:background="@drawable/edittext_bottom_outline"
+                    android:drawableLeft="@drawable/ic_phone_white_24dp"
+                    android:drawablePadding="12dp"
+                    android:hint="enter 10 digit mobile number"
+
+                    android:inputType="phone"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textColorHint="#fff" />
+
+                <EditText
+                    android:id="@+id/etTeacherEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="8dp"
+                    android:alpha="0.9"
+                    android:background="@drawable/edittext_bottom_outline"
+                    android:drawableLeft="@drawable/ic_email_black_24dp"
+                    android:drawablePadding="12dp"
+                    android:hint="enter email"
+
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textColorHint="#fff" />
+
+                <EditText
+                    android:id="@+id/etTeacherAge"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="8dp"
+                    android:alpha="0.9"
+                    android:background="@drawable/edittext_bottom_outline"
+                    android:drawableLeft="@drawable/ic_circular_line_with_word_age_in_the_center"
+                    android:drawablePadding="12dp"
+                    android:hint="enter age"
+
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textColorHint="#fff" />
+
+                <TextView
+                    android:id="@+id/tvGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:alpha="0.9"
+                    android:text="Your Gender"
+                    android:textColor="#ff9900" />
+
+                <Spinner
+                    android:id="@+id/spTeacherGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.9"
+                    android:backgroundTint="#ff9900"
+                    android:labelFor="@id/tvGender" />
+
+                <TextView
+                    android:id="@+id/tvQualification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:alpha="0.9"
+                    android:text="Your Highest Qualification"
+                    android:textColor="#ff9900" />
+
+                <Spinner
+                    android:id="@+id/spTeacherQualification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.9"
+                    android:backgroundTint="#ff9900"
+                    android:labelFor="@id/tvQualification" />
+
+                <TextView
+                    android:id="@+id/tvField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:alpha="0.9"
+                    android:text="Want to teach in the field of"
+                    android:textColor="#ff9900" />
+
+                <Spinner
+                    android:id="@+id/spTeacherField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.9"
+                    android:backgroundTint="#ff9900"
+                    android:labelFor="@id/tvField" />
+
+
+                <TextView
+                    android:id="@+id/tvTeacherSubject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:alpha="0.9"
+                    android:text="for branch (Enginnering only)"
+                    android:textColor="#ff9900" />
+
+                <Spinner
+                    android:id="@+id/spTeacherSubject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.9"
+                    android:backgroundTint="#ff9900"
+                    android:labelFor="@id/tvTeacherSubject" />
+
+
+                <TextView
+                    android:id="@+id/tvTeacherClass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:alpha="0.9"
+                    android:text="for class upto"
+                    android:textColor="#ff9900" />
+
+                <Spinner
+                    android:id="@+id/spTeacherClass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.9"
+                    android:backgroundTint="#ff9900"
+                    android:labelFor="@id/tvTeacherClass" />
+
+                <TextView
+                    android:id="@+id/tvTeacherSpecificSubject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:alpha="0.9"
+                    android:text="specify subject"
+                    android:textColor="#ff9900" />
+
+                <EditText
+                    android:id="@+id/etTeacherEnterSpecificSubject"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="8dp"
+                    android:alpha="0.9"
+                    android:background="@drawable/edittext_bottom_outline"
+                    android:drawableLeft="@drawable/ic_open_book"
+                    android:drawablePadding="12dp"
+                    android:hint="enter subject you want to teach"
+
+                    android:labelFor="@+id/tvTeacherSpecificSubject"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textColorHint="#fff" />
+
+                <EditText
+                    android:id="@+id/etTeacherFee"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="8dp"
+                    android:alpha="0.9"
+                    android:background="@drawable/edittext_bottom_outline"
+                    android:drawableLeft="@drawable/ic_rupee_white"
+                    android:drawablePadding="12dp"
+                    android:hint="enter monthly fee"
+                    android:inputType="number"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textColorHint="#fff" />
+
+                <EditText
+                    android:id="@+id/etTeacherCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="8dp"
+                    android:alpha="0.9"
+                    android:background="@drawable/edittext_bottom_outline"
+                    android:drawableLeft="@drawable/ic_location_city_white_24dp"
+                    android:drawablePadding="12dp"
+                    android:hint="enter city e.g Guwahati"
+
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textColorHint="#fff" />
+
+                <TextView
+                    android:id="@+id/tvTeacherState"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="select state" />
+
+                <Spinner
+                    android:id="@+id/spTeacherState"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:labelFor="@id/tvState" />
+
+                <EditText
+                    android:id="@+id/etTeacherUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="8dp"
+                    android:alpha="0.9"
+                    android:background="@drawable/edittext_bottom_outline"
+                    android:drawableLeft="@drawable/ic_public_white_24dp"
+                    android:drawablePadding="12dp"
+                    android:hint="choose a username"
+
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textColorHint="#fff" />
+
+                <EditText
+                    android:id="@+id/etTeacherPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="8dp"
+                    android:alpha="0.9"
+                    android:background="@drawable/edittext_bottom_outline"
+                    android:drawableLeft="@drawable/ic_lock_black_24dp"
+                    android:drawablePadding="12dp"
+                    android:hint="choose a password"
+
+                    android:inputType="textPassword"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textColorHint="#fff" />
+
+                <EditText
+                    android:id="@+id/etTeacherRePassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="8dp"
+                    android:alpha="0.9"
+                    android:background="@drawable/edittext_bottom_outline"
+                    android:drawableLeft="@drawable/ic_lock_black_24dp"
+                    android:drawablePadding="12dp"
+                    android:hint="Retype password"
+                    android:inputType="textPassword"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textColorHint="#fff" />
+
+                <ProgressBar
+                    android:id="@+id/pbTeacherRegister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="gone" />
+
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btTeacherRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:alpha="0.8"
+                    android:background="@drawable/login_button"
+                    android:padding="8dp"
+                    android:text="Register"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:alpha="0.7"
+                    android:gravity="center"
+                    android:text="By registering you agree to our terms and condition"
+                    android:textColor="#ff9900"
+                    android:textStyle="bold" />
+
+                <!--<Button-->
+                <!--android:id="@+id/btTeacherRegister"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:text="register" />-->
+
+
+                <!--<Button-->
+                <!--android:id="@+id/btGoogleSignUp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:text="google signup" />-->
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
